@@ -120,7 +120,7 @@ https://lolninja.net/2026/02/15/49370/
     const beforeScroll = scrollContainer.scrollLeft;
     fetchData();
     scrollContainer.scrollLeft += 800;
-    await new Promise((r) => setTimeout(r, 1000));
+    await new Promise((r) => setTimeout(r, 50));
 
     if (
       scrollContainer.scrollLeft === beforeScroll ||
