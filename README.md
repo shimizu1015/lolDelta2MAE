@@ -57,7 +57,7 @@ https://lolninja.net/2026/02/15/49370/
 
 ![javascript](step5.png)
 
-````javascript
+```javascript
 (async () => {
   // 1. タイトルからレーンを特定
   const rawTitle = document.title;
@@ -171,7 +171,7 @@ https://lolninja.net/2026/02/15/49370/
   console.log(`重み付け MAE: ${weightedMae.toFixed(4)}`);
   console.log(`-----------------------------------`);
 })();
-\```
+```
 
 ---
 
@@ -195,4 +195,7 @@ https://lolninja.net/2026/02/15/49370/
 より正確な先出し判断ができるよう、今後の更新をお待ちください！
 
 ---
-````
+
+```
+
+```
